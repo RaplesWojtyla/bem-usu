@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@prisma/client": "^6.4.1",
     "@radix-ui/react-slot": "^1.1.2",
     "bcrypt": "^5.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.477.0",
+    "mongoose": "^8.12.0",
     "next": "14.2.24",
     "react": "^18",
     "react-dom": "^18",
@@ -27,17 +27,13 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "prisma": "^6.4.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@prisma/client",
-      "@prisma/engines",
       "bcrypt",
-      "esbuild",
-      "prisma"
+      "esbuild"
     ]
   }
 }
