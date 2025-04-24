@@ -1,11 +1,12 @@
+import Image from "next/image"
 
 export const Footer = () => {
     return (
         <footer className="bg-green-800 text-white py-10 px-4">
             {/* Logo Bagian Atas */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
-                <img src="/img/bem_usu.png" alt="BEM Logo" className="h-20" />
-                <img src="/img/logo kabinet.png" alt="Kabinet Logo" className="h-20" />
+                <Image src="/img/bem_usu.png" alt="BEM Logo" width={65} height={65} />
+                <Image src="/img/logo kabinet.png" alt="Kabinet Logo" width={65} height={65} />
             </div>
 
             <hr className="border-gray-300 mb-8" />
