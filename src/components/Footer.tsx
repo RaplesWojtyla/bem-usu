@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export const Footer = () => {
     return (
@@ -39,11 +40,11 @@ export const Footer = () => {
                 <div>
                     <h3 className="font-semibold mb-4">Nav-link</h3>
                     <ul className="space-y-3">
-                        <li><a href="#" className="hover:underline">Home</a></li>
-                        <li><a href="#" className="hover:underline">About</a></li>
-                        <li><a href="#" className="hover:underline">News</a></li>
-                        <li><a href="#" className="hover:underline">Contact</a></li>
-                        <li><a href="#" className="hover:underline">Cabinet</a></li>
+                        <li><Link href="." className="hover:underline">Home</Link></li>
+                        <li><Link href="#" className="hover:underline">About</Link></li>
+                        <li><Link href="/news" className="hover:underline">News</Link></li>
+                        <li><Link href="#" className="hover:underline">Contact</Link></li>
+                        <li><Link href="#" className="hover:underline">Cabinet</Link></li>
                     </ul>
                 </div>
 
@@ -51,10 +52,10 @@ export const Footer = () => {
                 <div>
                     <h3 className="font-semibold mb-4">Legal</h3>
                     <ul className="space-y-3">
-                        <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-                        <li><a href="#" className="hover:underline">Terms & Services</a></li>
-                        <li><a href="#" className="hover:underline">Terms of Use</a></li>
-                        <li><a href="#" className="hover:underline">Refund Policy</a></li>
+                        <li><Link href="#" className="hover:underline">Privacy Policy</Link></li>
+                        <li><Link href="#" className="hover:underline">Terms & Services</Link></li>
+                        <li><Link href="#" className="hover:underline">Terms of Use</Link></li>
+                        <li><Link href="#" className="hover:underline">Refund Policy</Link></li>
                     </ul>
                 </div>
 
@@ -62,9 +63,9 @@ export const Footer = () => {
                 <div>
                     <h3 className="font-semibold mb-4">Quick Links</h3>
                     <ul className="space-y-3">
-                        <li><a href="#" className="hover:underline">Techlabz Keybox</a></li>
-                        <li><a href="#" className="hover:underline">Downloads</a></li>
-                        <li><a href="#" className="hover:underline">Forum</a></li>
+                        <li><Link href="#" className="hover:underline">Techlabz Keybox</Link></li>
+                        <li><Link href="#" className="hover:underline">Downloads</Link></li>
+                        <li><Link href="#" className="hover:underline">Forum</Link></li>
                     </ul>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div className="bg-gray-200 text-gray-900">
+		<div className="text-gray-900">
 			{/* Hero Section */}
 			<section
 				className="relative text-white text-center py-40 px-6"
