@@ -21,7 +21,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
 	title: "BEM - USU",
 	description: "Kabinet Aksi Bersama BEM USU 2024/2025 - Kolaborasi Reformasi Untuk Kebermanfaatan Mahasiswa USU serta Masyarakat",
-	metadataBase: new URL("http://localhost:3000") // Janlup ganti pas dah deploy
+	metadataBase: new URL("https://bem-usu.vercel.app/") // Janlup ganti pas dah deploy
 };
 
 export default function RootLayout({
@@ -31,9 +31,6 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="id">
-			<head>
-				<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
-			</head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
 			>
